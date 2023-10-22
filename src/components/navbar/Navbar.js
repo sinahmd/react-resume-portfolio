@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-//import 'materialize-css/dist/css/materialize.min.css';
+import 'materialize-css/dist/css/materialize.min.css';
 import { Link } from 'react-router-dom';
 
 export default class Navbar extends Component {
@@ -18,27 +18,27 @@ export default class Navbar extends Component {
 							<ul className='right hide-on-med-and-down'>
 								<li>
 									<Link to='/'>
-										<i class='fas fa-home'></i> Home
+										<i class='fas fa-home'>Home</i> 
 									</Link>
 								</li>
 								<li>
 									<Link to='/skills'>
-										<i class='fas fa-copy'></i> Skills
+										<i class='fas fa-copy'>Skills</i> 
 									</Link>
 								</li>
 								<li>
 									<Link to='/experiences'>
-										<i class='fas fa-id-badge'></i> Experiences
+										<i class='fas fa-id-badge'>Experiences</i> 
 									</Link>
 								</li>
 								<li>
 									<Link to='/educations'>
-										<i class='fas fa-graduation-cap'></i> Educations
+										<i class='fas fa-graduation-cap'>Educations</i> 
 									</Link>
 								</li>
 								<li>
 									<Link to='/portfolios'>
-										<i class='fas fa-address-card'></i> Portfolios
+										<i class='fas fa-address-card'>Portfolios</i> 
 									</Link>
 								</li>
 							</ul>
@@ -76,3 +76,4 @@ export default class Navbar extends Component {
 		);
 	}
 }
+

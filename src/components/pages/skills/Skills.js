@@ -14,7 +14,7 @@ export default function Skills() {
               <div className="progress grey lighten-1">
                 <div
                   className="determinate blue"
-                  style={{ width: '89%' }}
+                  style={{ width: '70%' }}
                 ></div>
               </div>
             </div>
@@ -23,27 +23,27 @@ export default function Skills() {
               <div className="progress grey lighten-1">
                 <div
                   className="determinate blue"
-                  style={{ width: '100%' }}
+                  style={{ width: '60%' }}
                 ></div>
               </div>
             </div>
           </div>
           <div className="row">
             <div className="col s6">
-              <p>JAVASCRIPT</p>
+              <p>ReactJS</p>
               <div className="progress grey lighten-1">
                 <div
                   className="determinate blue"
-                  style={{ width: '90%' }}
+                  style={{ width: '30%' }}
                 ></div>
               </div>
             </div>
             <div className="col s6">
-              <p>PHP</p>
+              <p>GO</p>
               <div className="progress grey lighten-1">
                 <div
                   className="determinate blue"
-                  style={{ width: '95%' }}
+                  style={{ width: '35%' }}
                 ></div>
               </div>
             </div>
@@ -58,13 +58,35 @@ export default function Skills() {
                 ></div>
               </div>
             </div>
+            
             <div className="col s6">
-              <p>JQUERY</p>
+              <p>Django</p>
               <div className="progress grey lighten-1">
                 <div
                   className="determinate blue"
                   style={{ width: '70%' }}
                 ></div>
+              </div>
+            </div>
+          </div>
+            <div className="row">
+            <div className="col s6">
+              <p>Linux</p>
+              <div className="progress grey lighten-1">
+                <div className="determinate blue" 
+                style={{ width: '80%' }}>
+
+                </div>
+              </div>
+            </div>
+
+            <div className="col s6">
+              <p>Docker</p>
+              <div className="progress grey lighten-1">
+                <div className="determinate blue" 
+                style={{ width: '50%' }}>
+
+                </div>
               </div>
             </div>
           </div>

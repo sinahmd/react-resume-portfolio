@@ -19,13 +19,11 @@ export default function Experiences() {
             <div className="col xl8 l8 m6 s12">
               <blockquote className="no-pad">
                 <h6 className="no-pad mt-bottom">
-                  <strong>WEB DEVELOPER</strong>
+                  <strong>WEB DEVELOPER:WEBIMO</strong>
                 </h6>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam,
-                  earum doloribus dicta quod architecto, praesentium totam
-                  molestiae similique culpa repellat blanditiis nam facilis eius
-                  quaerat distinctio vitae, tenetur beatae repellendus?
+                Worked with a web developer to create WordPress and ReactJS websites
+                for Beauty stylists
                 </p>
               </blockquote>
             </div>
@@ -41,14 +39,18 @@ export default function Experiences() {
             <div className="col xl8 l8 m6 s12">
               <blockquote className="no-pad">
                 <h6 className="no-pad mt-bottom">
-                  <strong>WEB DEVELOPER</strong>
+                  <strong>SOFTWARE ENGINEER QUERA INTERN</strong>
                 </h6>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam,
-                  earum doloribus dicta quod architecto, praesentium totam
-                  molestiae similique culpa repellat blanditiis nam facilis eius
-                  quaerat distinctio vitae, tenetur beatae repellendus?
-                </p>
+                  Materialized a RESTful API using Golang and MySQL. Involve creating
+                  CRUD endpoints, handling authentication and authorization, and implementing
+                  error handling.</p>
+                  <p>Designed a MySQL database for storing ticket and user information.</p>
+                    <p> Implemented subdatabase and automation to solve database crashing
+                  issues caused by high transaction volume.</p>
+                  <p>Documented the project using Swagger for better understanding and
+                  maintenance.</p>
+                
               </blockquote>
             </div>
           </div>
